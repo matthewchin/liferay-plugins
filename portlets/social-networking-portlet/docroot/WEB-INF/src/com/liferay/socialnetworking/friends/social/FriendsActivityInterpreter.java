@@ -64,7 +64,6 @@ public class FriendsActivityInterpreter extends BaseSocialActivityInterpreter {
 		String title = StringPool.BLANK;
 
 		if (activityType == FriendsActivityKeys.ADD_FRIEND) {
-
 			title = themeDisplay.translate(
 				"activity-social-networking-summary-add-friend",
 				new Object[] {creatorUserName, receiverUserName});
